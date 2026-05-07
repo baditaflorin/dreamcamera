@@ -1,0 +1,50 @@
+{
+  "name": "dreamcamera",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Real-time browser camera filters that transform live video into dreamlike AI-native visual memories.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "prebuild": "node scripts/prepare-pages.mjs",
+    "build": "tsc -b && vite build && node scripts/finalize-pages.mjs && node scripts/check-pages.mjs",
+    "preview": "vite preview --host 127.0.0.1",
+    "pages-preview": "npx serve docs -l 4174",
+    "lint": "eslint . && prettier --check . && npm audit --audit-level=high",
+    "fmt": "prettier --write .",
+    "typecheck": "tsc -b --pretty false",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "smoke": "scripts/smoke.sh"
+  },
+  "dependencies": {
+    "@mediapipe/tasks-vision": "0.10.35",
+    "@tailwindcss/vite": "4.2.4",
+    "lucide-react": "0.554.0",
+    "onnxruntime-web": "1.25.1",
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "tailwindcss": "4.2.4",
+    "zod": "4.1.13"
+  },
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "@playwright/test": "1.59.1",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "6.0.1",
+    "eslint": "10.3.0",
+    "globals": "16.5.0",
+    "jsdom": "29.1.1",
+    "prettier": "3.8.3",
+    "serve": "14.2.6",
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.59.2",
+    "vite": "8.0.11",
+    "vitest": "4.1.5"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
+

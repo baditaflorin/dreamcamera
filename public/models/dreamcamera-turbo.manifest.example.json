@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "kind": "sd-turbo-img2img",
+  "name": "Dreamcamera Turbo ONNX Pack",
+  "description": "Example manifest for a browser-local Stable Diffusion Turbo image-to-image ONNX pack.",
+  "input": {
+    "width": 256,
+    "height": 256,
+    "channels": 3,
+    "format": "float32-nchw",
+    "range": [-1, 1]
+  },
+  "models": {
+    "unet": "unet/model.onnx",
+    "vaeEncoder": "vae_encoder/model.onnx",
+    "vaeDecoder": "vae_decoder/model.onnx"
+  },
+  "notes": "Model weights are not redistributed by Dreamcamera. Host or select files only when their license permits browser use."
+}
+

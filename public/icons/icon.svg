@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Dreamcamera icon">
+  <rect width="512" height="512" rx="96" fill="#111111"/>
+  <path d="M116 178h64l28-38h96l28 38h64c24 0 44 20 44 44v140c0 24-20 44-44 44H116c-24 0-44-20-44-44V222c0-24 20-44 44-44Z" fill="#f7f2ea"/>
+  <circle cx="256" cy="292" r="84" fill="#111111"/>
+  <circle cx="256" cy="292" r="52" fill="#86d7c6"/>
+  <path d="M204 292c24-48 80-48 104 0-20 28-84 28-104 0Z" fill="#f3c766"/>
+  <circle cx="374" cy="226" r="20" fill="#d86b6b"/>
+</svg>
+

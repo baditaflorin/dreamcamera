@@ -1,0 +1,19 @@
+{
+  "name": "Dreamcamera",
+  "short_name": "Dreamcamera",
+  "description": "Real-time browser camera filters that transform live video into dreamlike AI-native visual memories.",
+  "start_url": "/dreamcamera/",
+  "scope": "/dreamcamera/",
+  "display": "standalone",
+  "background_color": "#111111",
+  "theme_color": "#111111",
+  "icons": [
+    {
+      "src": "/dreamcamera/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
+
