@@ -26,4 +26,3 @@ The frontend has no credentials. Gitleaks runs in local hooks to catch accidenta
 ## Alternatives considered
 
 Encrypted frontend secrets were rejected because obfuscation is not security.
-

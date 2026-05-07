@@ -11,33 +11,46 @@ export default tseslint.config(
       "node_modules/**",
       "coverage/**",
       "playwright-report/**",
-      "test-results/**"
-    ]
+      "test-results/**",
+    ],
   },
-  js.configs.recommended,
-  ...tseslint.configs.recommendedTypeChecked,
   {
+    ...js.configs.recommended,
+    files: ["**/*.{js,mjs,cjs}"],
+    languageOptions: {
+      globals: {
+        ...globals.browser,
+        ...globals.node,
+        ...globals.serviceworker,
+      },
+    },
+  },
+  ...tseslint.configs.recommendedTypeChecked.map((config) => ({
+    ...config,
+    files: ["**/*.{ts,tsx}"],
+  })),
+  {
+    files: ["**/*.{ts,tsx}"],
     languageOptions: {
       parserOptions: {
         projectService: true,
-        tsconfigRootDir: import.meta.dirname
+        tsconfigRootDir: import.meta.dirname,
       },
       globals: {
         ...globals.browser,
-        ...globals.node
-      }
+        ...globals.node,
+      },
     },
     rules: {
       "@typescript-eslint/no-misused-promises": [
         "error",
         {
           checksVoidReturn: {
-            attributes: false
-          }
-        }
+            attributes: false,
+          },
+        },
       ],
-      "@typescript-eslint/no-floating-promises": "error"
-    }
-  }
+      "@typescript-eslint/no-floating-promises": "error",
+    },
+  },
 );
-

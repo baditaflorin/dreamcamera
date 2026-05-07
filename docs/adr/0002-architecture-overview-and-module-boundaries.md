@@ -27,4 +27,3 @@ Module boundaries are explicit and each expensive runtime is lazy-loaded behind 
 ## Alternatives considered
 
 A single large camera component was rejected because it would mix permission state, rendering, model loading, and UI concerns.
-

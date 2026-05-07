@@ -18,4 +18,3 @@ Do not open a public issue for security-sensitive reports. Include a minimal rep
 - No secrets belong in frontend code.
 - `.env*`, private keys, and credentials are ignored and scanned by the local gitleaks hook.
 - Third-party model packs must have clear redistribution and browser execution terms before they are committed.
-

@@ -21,4 +21,3 @@ The UI remains maintainable and the build is fast. React and lucide add some ini
 ## Alternatives considered
 
 Vanilla TypeScript was rejected because the controls, errors, and state transitions are rich enough to benefit from React. Next.js was rejected because server rendering is unnecessary for GitHub Pages v1.
-

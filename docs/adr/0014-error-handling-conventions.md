@@ -19,4 +19,3 @@ Users can continue with Canvas fallback if WebGPU is unavailable. Model-loading 
 ## Alternatives considered
 
 Letting browser exceptions bubble to the console was rejected because failures need visible recovery paths.
-

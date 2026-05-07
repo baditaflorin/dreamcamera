@@ -19,4 +19,3 @@ No `cmd/`, `internal/`, `pkg/`, `api/`, `configs/`, or Go-specific build targets
 ## Alternatives considered
 
 A Go API was rejected because no secret-backed or server-side workflow is required.
-

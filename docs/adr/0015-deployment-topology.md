@@ -21,4 +21,3 @@ Operations are limited to static publishing and rollback through git. GitHub pro
 ## Alternatives considered
 
 A server deployment was rejected because it would not improve the local camera experience.
-

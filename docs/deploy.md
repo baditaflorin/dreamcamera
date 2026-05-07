@@ -33,4 +33,3 @@ git push origin main
 ## Custom domain
 
 No custom domain is configured for v1. If one is added later, create `docs/CNAME`, configure DNS to point at GitHub Pages, and update ADR 0010.
-

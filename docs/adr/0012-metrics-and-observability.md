@@ -21,4 +21,3 @@ There is no usage dashboard. Users get useful local observability without networ
 ## Alternatives considered
 
 Plausible or a custom beacon were rejected because usage insight is not necessary for v1.
-

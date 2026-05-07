@@ -27,4 +27,3 @@ Dependencies are auditable and version-pinned through `package-lock.json`. `npm 
 ## Alternatives considered
 
 Experimental or unmaintained visual AI wrappers were rejected. Custom ML runtimes were rejected because browser inference should rely on battle-tested libraries.
-

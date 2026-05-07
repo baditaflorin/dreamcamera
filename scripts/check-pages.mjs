@@ -5,7 +5,9 @@ import { join } from "node:path";
 const index = await readFile("docs/index.html", "utf8");
 
 if (!index.includes("/dreamcamera/assets/")) {
-  throw new Error("docs/index.html does not contain GitHub Pages base asset paths");
+  throw new Error(
+    "docs/index.html does not contain GitHub Pages base asset paths",
+  );
 }
 
 const assets = await readdir("docs/assets");
@@ -31,8 +33,11 @@ for (const asset of jsAssets) {
 
 const budget = 200 * 1024;
 if (initialGzipBytes > budget) {
-  throw new Error(`initial JS exceeds 200KB gzipped budget: ${initialGzipBytes} bytes`);
+  throw new Error(
+    `initial JS exceeds 200KB gzipped budget: ${initialGzipBytes} bytes`,
+  );
 }
 
-console.log(`Pages build ok. Initial JS gzip: ${Math.round(initialGzipBytes / 1024)}KB`);
-
+console.log(
+  `Pages build ok. Initial JS gzip: ${Math.round(initialGzipBytes / 1024)}KB`,
+);

@@ -23,4 +23,3 @@ Examples of unacceptable behavior:
 ## Enforcement
 
 Project maintainers may remove, edit, or reject comments, commits, code, issues, and other contributions that do not align with this Code of Conduct.
-

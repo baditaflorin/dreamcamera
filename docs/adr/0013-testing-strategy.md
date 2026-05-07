@@ -24,4 +24,3 @@ Camera hardware and WebGPU availability are not required in CI-like local smoke 
 ## Alternatives considered
 
 Full visual regression testing was deferred because camera output is hardware-dependent.
-

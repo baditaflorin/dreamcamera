@@ -19,4 +19,3 @@ The storage surface is small and user-removable through browser site settings. N
 ## Alternatives considered
 
 Server-side persistence was rejected because it would require Mode C without adding v1 value.
-

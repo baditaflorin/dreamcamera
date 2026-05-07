@@ -13,4 +13,3 @@ The app may store preferences and optional user-provided model pack metadata in 
 ## Network requests
 
 The static app is loaded from GitHub Pages. Optional MediaPipe and ONNX/WASM assets may be fetched from public package or model URLs when the user starts the experience.
-

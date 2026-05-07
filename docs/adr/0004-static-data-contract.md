@@ -22,4 +22,3 @@ There is no freshness cadence or server API. Any future breaking model-pack mani
 ## Alternatives considered
 
 Committed model weights were rejected for v1 because Stable Diffusion Turbo ONNX assets are large and license-sensitive.
-

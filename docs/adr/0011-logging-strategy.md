@@ -19,4 +19,3 @@ Production builds should have no routine console errors. Recoverable runtime pro
 ## Alternatives considered
 
 Client log shipping was rejected because v1 has no analytics or backend.
-

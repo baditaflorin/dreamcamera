@@ -25,4 +25,3 @@ The app ships as static HTML, CSS, JavaScript, WASM assets, and optional model m
 
 - Mode B: rejected because there is no static dataset to generate.
 - Mode C: rejected because no runtime API, authentication, mutation, or secret-backed workflow is required.
-

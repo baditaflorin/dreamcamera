@@ -29,4 +29,3 @@ The Vite `base` path is `/dreamcamera/`, matching:
 
 - `gh-pages` branch: rejected to keep source and published output visible in one branch.
 - `main` root: rejected because source files and package metadata would be exposed as the Pages document root.
-

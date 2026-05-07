@@ -24,4 +24,3 @@ The app remains static-hostable. Some high-performance threading modes are not e
 ## Alternatives considered
 
 A backend inference server was rejected because camera frames should remain local. A service-worker header shim was deferred because it adds complexity and is not needed for the shader-first v1 path.
-

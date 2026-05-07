@@ -26,4 +26,3 @@ Contributors opt in by running one make target. Hooks are idempotent and the sam
 ## Alternatives considered
 
 Lefthook was rejected to keep the hook system dependency-free.
-

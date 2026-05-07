@@ -19,4 +19,3 @@ Do not create a data pipeline in v1.
 ## Alternatives considered
 
 Precomputing image assets was rejected because the core value is live camera transformation.
-
